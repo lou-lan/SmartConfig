@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  SmartConfig
+
+  Created by 翟怀楼 on 2017/6/20.
+  Copyright © 2017年 翟怀楼. All rights reserved.
+*/
+CONFIG_BUTTON_CONFIRM = "确定";
+CONFIG_BUTTON_CANCEL = "取消";
+
+WIFI_CONNECTED = "已连接 Wi-Fi ";
+WIFI_DISCONNECTED = "没有连接 Wi-Fi";
+WIFI_INPUT_PASSWORD = "请输入 Wi-Fi 密码";
+
+WIFI_CONNECTION = " 已连接 Wi-Fi";
+
+CONFIRM = "确定";
+CANCEL  = "取消";
+
+RESULT_TITLE = "配置结果";
+
+MINIMAL_SYSTEMS = "最小系统";

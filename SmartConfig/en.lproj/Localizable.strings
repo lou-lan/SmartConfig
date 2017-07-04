@@ -1,0 +1,22 @@
+/* 
+  Localizable.strings
+  SmartConfig
+
+  Created by 翟怀楼 on 2017/6/20.
+  Copyright © 2017年 翟怀楼. All rights reserved.
+*/
+CONFIG_BUTTON_CONFIRM = "Confirm";
+CONFIG_BUTTON_CANCEL = "Cancel";
+
+WIFI_CONNECTED = "Connected to WiFi for ";
+WIFI_DISCONNECTED = "Not connect to WiFi";
+WIFI_INPUT_PASSWORD = "Please enter Wi-Fi Password";
+
+WIFI_CONNECTION = " has WiFi connection";
+
+CONFIRM = "OK";
+CANCEL  = "Cancel";
+
+RESULT_TITLE = "Config Rsult";
+
+MINIMAL_SYSTEMS = "Minimal Systems";

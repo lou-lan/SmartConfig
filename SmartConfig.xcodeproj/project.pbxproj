@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1F71F01EC72CE60077D070 /* GetWiFi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F71EF1EC72CE60077D070 /* GetWiFi.swift */; };
+		7F5FD50C1EBDA4B200ACB2C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5FD50B1EBDA4B200ACB2C0 /* AppDelegate.swift */; };
+		7F5FD5111EBDA4B200ACB2C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FD50F1EBDA4B200ACB2C0 /* Main.storyboard */; };
+		7F5FD5131EBDA4B200ACB2C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F5FD5121EBDA4B200ACB2C0 /* Assets.xcassets */; };
+		7F5FD51E1EBDB35900ACB2C0 /* SmartConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5FD51D1EBDB35900ACB2C0 /* SmartConfigViewController.swift */; };
+		7F6379C91EBDBD620071DBA5 /* libEsptouch_v0.3.5.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6379C81EBDBD620071DBA5 /* libEsptouch_v0.3.5.3.a */; };
+		7F6B53611EC8859A0035E0CF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B53601EC8859A0035E0CF /* WebViewController.swift */; };
+		7F6EF81C1EC9A1CD00B2EC75 /* HTML in Resources */ = {isa = PBXBuildFile; fileRef = 7F6EF81B1EC9A1CD00B2EC75 /* HTML */; };
+		7F7DAE1B1EEAA19300D4598F /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7DAE1A1EEAA19300D4598F /* ContentViewController.swift */; };
+		7F7DAE1D1EEAAF7600D4598F /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7DAE1C1EEAAF7600D4598F /* PageViewController.swift */; };
+		7F8E9F0B1EEF884100BFC6C9 /* OtherTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E9F0A1EEF884100BFC6C9 /* OtherTableVC.swift */; };
+		7F9E88B61EF504B1006C8371 /* SystemButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9E88B51EF504B1006C8371 /* SystemButton.swift */; };
+		7FA649551EF93FBC00AECA36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FA649571EF93FBC00AECA36 /* Localizable.strings */; };
+		7FF5D2521EF7D029002429F2 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5D2511EF7D029002429F2 /* CustomTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F1F71EF1EC72CE60077D070 /* GetWiFi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetWiFi.swift; path = ESPtouch/GetWiFi.swift; sourceTree = "<group>"; };
+		7F5FD5081EBDA4B200ACB2C0 /* SmartConfig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartConfig.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5FD50B1EBDA4B200ACB2C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F5FD5121EBDA4B200ACB2C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F5FD5171EBDA4B200ACB2C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F5FD51D1EBDB35900ACB2C0 /* SmartConfigViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmartConfigViewController.swift; sourceTree = "<group>"; };
+		7F5FD5261EBDB3FA00ACB2C0 /* SmartConfig-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartConfig-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F6379C51EBDBD620071DBA5 /* ESPTouchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchDelegate.h; sourceTree = "<group>"; };
+		7F6379C61EBDBD620071DBA5 /* ESPTouchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchResult.h; sourceTree = "<group>"; };
+		7F6379C71EBDBD620071DBA5 /* ESPTouchTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESPTouchTask.h; sourceTree = "<group>"; };
+		7F6379C81EBDBD620071DBA5 /* libEsptouch_v0.3.5.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libEsptouch_v0.3.5.3.a; sourceTree = "<group>"; };
+		7F6B53601EC8859A0035E0CF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		7F6EF81B1EC9A1CD00B2EC75 /* HTML */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTML; sourceTree = "<group>"; };
+		7F7DAE1A1EEAA19300D4598F /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		7F7DAE1C1EEAAF7600D4598F /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		7F8E9F0A1EEF884100BFC6C9 /* OtherTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtherTableVC.swift; sourceTree = "<group>"; };
+		7F9E88B51EF504B1006C8371 /* SystemButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemButton.swift; sourceTree = "<group>"; };
+		7FA649261EF8F72600AECA36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FA6494D1EF8F93600AECA36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		7FA6494E1EF8F93D00AECA36 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		7FA649561EF93FBC00AECA36 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7FA649581EF93FC100AECA36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7FF5D2511EF7D029002429F2 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F5FD5051EBDA4B200ACB2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6379C91EBDBD620071DBA5 /* libEsptouch_v0.3.5.3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F5FD4FF1EBDA4B200ACB2C0 = {
+			isa = PBXGroup;
+			children = (
+				7F5FD50A1EBDA4B200ACB2C0 /* SmartConfig */,
+				7F5FD5091EBDA4B200ACB2C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5FD5091EBDA4B200ACB2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F5FD5081EBDA4B200ACB2C0 /* SmartConfig.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F5FD50A1EBDA4B200ACB2C0 /* SmartConfig */ = {
+			isa = PBXGroup;
+			children = (
+				7F6EF81B1EC9A1CD00B2EC75 /* HTML */,
+				7F5FD52B1EBDB44C00ACB2C0 /* Model */,
+				7F9E88B31EF50358006C8371 /* View */,
+				7F9E88B41EF50374006C8371 /* Controller */,
+				7F5FD51F1EBDB37500ACB2C0 /* Lib */,
+				7F5FD50B1EBDA4B200ACB2C0 /* AppDelegate.swift */,
+				7F5FD50F1EBDA4B200ACB2C0 /* Main.storyboard */,
+				7F5FD5121EBDA4B200ACB2C0 /* Assets.xcassets */,
+				7F5FD5261EBDB3FA00ACB2C0 /* SmartConfig-Bridging-Header.h */,
+				7F5FD5171EBDA4B200ACB2C0 /* Info.plist */,
+				7FA649571EF93FBC00AECA36 /* Localizable.strings */,
+			);
+			path = SmartConfig;
+			sourceTree = "<group>";
+		};
+		7F5FD51F1EBDB37500ACB2C0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				7F6379C41EBDBD620071DBA5 /* ESPtouch */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		7F5FD52B1EBDB44C00ACB2C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7F1F71EF1EC72CE60077D070 /* GetWiFi.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7F6379C41EBDBD620071DBA5 /* ESPtouch */ = {
+			isa = PBXGroup;
+			children = (
+				7F6379C51EBDBD620071DBA5 /* ESPTouchDelegate.h */,
+				7F6379C61EBDBD620071DBA5 /* ESPTouchResult.h */,
+				7F6379C71EBDBD620071DBA5 /* ESPTouchTask.h */,
+				7F6379C81EBDBD620071DBA5 /* libEsptouch_v0.3.5.3.a */,
+			);
+			path = ESPtouch;
+			sourceTree = "<group>";
+		};
+		7F9E88B31EF50358006C8371 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F9E88B51EF504B1006C8371 /* SystemButton.swift */,
+				7FF5D2511EF7D029002429F2 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7F9E88B41EF50374006C8371 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7F5FD51D1EBDB35900ACB2C0 /* SmartConfigViewController.swift */,
+				7F7DAE1A1EEAA19300D4598F /* ContentViewController.swift */,
+				7F7DAE1C1EEAAF7600D4598F /* PageViewController.swift */,
+				7F8E9F0A1EEF884100BFC6C9 /* OtherTableVC.swift */,
+				7F6B53601EC8859A0035E0CF /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F5FD5071EBDA4B200ACB2C0 /* SmartConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5FD51A1EBDA4B200ACB2C0 /* Build configuration list for PBXNativeTarget "SmartConfig" */;
+			buildPhases = (
+				7F5FD5041EBDA4B200ACB2C0 /* Sources */,
+				7F5FD5051EBDA4B200ACB2C0 /* Frameworks */,
+				7F5FD5061EBDA4B200ACB2C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartConfig;
+			productName = SmartConfig;
+			productReference = 7F5FD5081EBDA4B200ACB2C0 /* SmartConfig.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F5FD5001EBDA4B200ACB2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "翟怀楼";
+				TargetAttributes = {
+					7F5FD5071EBDA4B200ACB2C0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 566ZX6993Z;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7F5FD5031EBDA4B200ACB2C0 /* Build configuration list for PBXProject "SmartConfig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7F5FD4FF1EBDA4B200ACB2C0;
+			productRefGroup = 7F5FD5091EBDA4B200ACB2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F5FD5071EBDA4B200ACB2C0 /* SmartConfig */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F5FD5061EBDA4B200ACB2C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6EF81C1EC9A1CD00B2EC75 /* HTML in Resources */,
+				7FA649551EF93FBC00AECA36 /* Localizable.strings in Resources */,
+				7F5FD5131EBDA4B200ACB2C0 /* Assets.xcassets in Resources */,
+				7F5FD5111EBDA4B200ACB2C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F5FD5041EBDA4B200ACB2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F7DAE1B1EEAA19300D4598F /* ContentViewController.swift in Sources */,
+				7F5FD50C1EBDA4B200ACB2C0 /* AppDelegate.swift in Sources */,
+				7F1F71F01EC72CE60077D070 /* GetWiFi.swift in Sources */,
+				7F7DAE1D1EEAAF7600D4598F /* PageViewController.swift in Sources */,
+				7F8E9F0B1EEF884100BFC6C9 /* OtherTableVC.swift in Sources */,
+				7F6B53611EC8859A0035E0CF /* WebViewController.swift in Sources */,
+				7F9E88B61EF504B1006C8371 /* SystemButton.swift in Sources */,
+				7F5FD51E1EBDB35900ACB2C0 /* SmartConfigViewController.swift in Sources */,
+				7FF5D2521EF7D029002429F2 /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F5FD50F1EBDA4B200ACB2C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA649261EF8F72600AECA36 /* Base */,
+				7FA6494D1EF8F93600AECA36 /* en */,
+				7FA6494E1EF8F93D00AECA36 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FA649571EF93FBC00AECA36 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FA649561EF93FBC00AECA36 /* zh-Hans */,
+				7FA649581EF93FC100AECA36 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F5FD5181EBDA4B200ACB2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F5FD5191EBDA4B200ACB2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F5FD51B1EBDA4B200ACB2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 566ZX6993Z;
+				INFOPLIST_FILE = SmartConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartConfig/ESPtouch",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.loulan.smartconfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartConfig/SmartConfig-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7F5FD51C1EBDA4B200ACB2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 566ZX6993Z;
+				INFOPLIST_FILE = SmartConfig/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SmartConfig/ESPtouch",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.loulan.smartconfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartConfig/SmartConfig-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F5FD5031EBDA4B200ACB2C0 /* Build configuration list for PBXProject "SmartConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5FD5181EBDA4B200ACB2C0 /* Debug */,
+				7F5FD5191EBDA4B200ACB2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5FD51A1EBDA4B200ACB2C0 /* Build configuration list for PBXNativeTarget "SmartConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F5FD51B1EBDA4B200ACB2C0 /* Debug */,
+				7F5FD51C1EBDA4B200ACB2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F5FD5001EBDA4B200ACB2C0 /* Project object */;
+}

@@ -1,0 +1,39 @@
+
+/* Class = "UITabBarItem"; title = "Other"; ObjectID = "9vy-lu-Vlo"; */
+"9vy-lu-Vlo.title" = "更多";
+
+/* Class = "UIButton"; normalTitle = "Config"; ObjectID = "Iw2-Ch-Lsx"; */
+"Iw2-Ch-Lsx.normalTitle" = "配置";
+
+/* Class = "UINavigationItem"; title = "Pin"; ObjectID = "SDn-vV-goj"; */
+"SDn-vV-goj.title" = "引脚";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "T9e-F8-BIA"; */
+"T9e-F8-BIA.title" = "返回";
+
+/* Class = "UITabBarItem"; title = "Pin"; ObjectID = "TiA-af-1fi"; */
+"TiA-af-1fi.title" = "引脚";
+
+/* Class = "UITextField"; placeholder = "请输入 Wi-Fi 密码"; ObjectID = "aNe-Rw-SLf"; */
+"aNe-Rw-SLf.placeholder" = "请输入 Wi-Fi 密码";
+
+/* Class = "UITabBarItem"; title = "Config"; ObjectID = "awG-vp-lZT"; */
+"awG-vp-lZT.title" = "配置";
+
+/* Class = "UINavigationItem"; title = "配置入网"; ObjectID = "bCh-ZE-zOH"; */
+"bCh-ZE-zOH.title" = "配置入网";
+
+/* Class = "UINavigationItem"; title = "Other"; ObjectID = "e9T-jE-NP3"; */
+"e9T-jE-NP3.title" = "更多";
+
+/* Class = "UILabel"; text = "Open Source License"; ObjectID = "gaD-dp-ehl"; */
+"gaD-dp-ehl.text" = "开源组件许可";
+
+/* Class = "UILabel"; text = "ESP8266"; ObjectID = "h3j-fQ-t4S"; */
+"h3j-fQ-t4S.text" = "ESP8266";
+
+/* Class = "UILabel"; text = "Version"; ObjectID = "iV5-6b-oVK"; */
+"iV5-6b-oVK.text" = "版本";
+
+/* Class = "UIBarButtonItem"; title = "取消"; ObjectID = "xT9-mT-4hq"; */
+"xT9-mT-4hq.title" = "取消";
