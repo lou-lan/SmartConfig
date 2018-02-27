@@ -22,24 +22,12 @@ SmartConfig is an ESP board auto connect WiFi demo written in Swift.
 Don't use the Xcode 9 beta version, and there will be errors in this version.
 ## Hardware ESP8266 NodeMCU Code init.lua Test
 ```
-wifi.setmode(wifi.STATION)  
+wifi.setmode(wifi.STATION)
 -- 0 is esptouch;
 -- 1 is airkiss;
-wifi.startsmart(0,  
+wifi.startsmart(0,
     function(ssid, password)
-
-        -- print log
         print(string.format("Success. SSID:%s ; PASSWORD:%s", ssid, password))
-
-        -- write wifi ssid and pass to txt
-        file.open("wifi.txt", "w+")
-        file.write(ssid)
-        file.close()
-
-        file.open("pass.txt", "w+")
-        file.write(password)
-        file.close()
-
     end
 )
 ```
