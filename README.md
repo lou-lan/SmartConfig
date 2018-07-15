@@ -21,7 +21,7 @@ SmartConfig is an ESP board auto connect WiFi demo written in Swift.
 ```
 Don't use the Xcode 9 beta version, and there will be errors in this version.
 ## Hardware ESP8266 NodeMCU Code init.lua Test
-```
+```lua
 print("Start SmartConfig ...")
 wifi.setmode(wifi.STATION)
 wifi.startsmart(0,
