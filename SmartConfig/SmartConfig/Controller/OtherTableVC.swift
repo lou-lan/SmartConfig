@@ -14,8 +14,6 @@ class OtherTableVC: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,19 +28,15 @@ class OtherTableVC: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        if section == 0
-        {
+        if section == 0 {
             return 2
         }
         
-        if section == 1
-        {
+        if section == 1 {
             return 1
         }
         
         return 0
-
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
