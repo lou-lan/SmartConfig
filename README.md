@@ -33,6 +33,6 @@ wifi.startsmart(0,
 ```
 
 ## TODO
-[ ] SwiftUI
-[ ] WiFi 5G
+[] SwiftUI  
+[] WiFi 5G
 
